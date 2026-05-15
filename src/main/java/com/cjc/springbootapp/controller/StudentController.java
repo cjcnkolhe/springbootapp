@@ -12,7 +12,7 @@ public class StudentController {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "welcome to springboot";
+		return "welcome to springboot app";
 	}
 	
 	@GetMapping("/welcome")
